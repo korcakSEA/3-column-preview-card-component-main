@@ -1,0 +1,35 @@
+:root{
+
+    /* Fonts */
+    --font-big-shoulders: 'Big Shoulders', sans-serif;
+    --font-lexend-deca: 'Lexend Deca', sans-serif;
+
+    --font-400: 400;
+    --font-700: 700;
+
+    /* Colors */
+
+    /* ### Primary */
+
+    --Bright-orange: hsl(31, 77%, 52%);
+    --Dark-cyan: hsl(184, 100%, 22%);
+    --Very-dark-cyan: hsl(179, 100%, 13%);
+
+    /* ### Neutral */
+
+    /* (paragraphs) */
+    --Transparent-white : hsla(0, 0%, 100%, 0.75);
+
+    /* (background, headings, buttons) */
+    --Very-light-gray : hsl(0, 0%, 95%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+html{
+    font-size: 0.9375rem; /* 15px */
+}
