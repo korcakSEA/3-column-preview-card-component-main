@@ -43,7 +43,7 @@ img{
 .wrapper{
     /* Centering wrapper */
     display: flex;
-    justify-content: center;
+    justify-content: center;    
     align-items: center;
     min-height: 100vh;
 
@@ -116,8 +116,14 @@ img{
     cursor: pointer;
 }
 
+.card__btn:hover, 
+.card__btn:focus{
+    background-color: transparent;
+    color: var(--Very-light-gray);
+}
+
 /* Botton animation classes */
-.btn--sedans{
+/* .btn--sedans{
     color:var(--Bright-orange);
 }
 .btn--sedans:hover,
@@ -142,7 +148,7 @@ img{
 .btn--luxury:focus{
     background-color: var(--Very-dark-cyan);
     color: var(--Very-light-gray);
-}
+} */
 
 
 
