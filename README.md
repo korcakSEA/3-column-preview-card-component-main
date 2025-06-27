@@ -43,34 +43,42 @@ Users should be able to:
 - CSS Grid
 - Mobile-first workflow
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I guss the most difficult part is to write code for each botton and their hover effects
 
-To see how you can add code snippets, see below:
+You can see code snippets, see below:
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+/* Botton animation classes */
+.btn--sedans{
+    color:var(--Bright-orange);
+}
+.btn--sedans:hover,
+.btn--sedans:focus{
+    background-color: var(--Bright-orange);
+    color: var(--Very-light-gray);
+}
+
+.btn--suvs{
+    color:var(--Dark-cyan);
+}
+.btn--suvs:hover, 
+.btn--suvs:focus{
+    background-color: var(--Dark-cyan);
+    color: var(--Very-light-gray);
+}
+
+.btn--luxury{
+    color:var(--Very-dark-cyan);
+}
+.btn--luxury:hover, 
+.btn--luxury:focus{
+    background-color: var(--Very-dark-cyan);
+    color: var(--Very-light-gray);
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
 
 ## Author
 

@@ -41,8 +41,6 @@ img{
 }
 
 .wrapper{
-    /* Full viewport height and width */
-
     /* Centering wrapper */
     display: flex;
     justify-content: center;
@@ -58,22 +56,24 @@ img{
     grid-template-columns: 1fr;    
     border-radius: 1.5rem;
     overflow: hidden;
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.2);
+
 }
 
 /* Card background classes */
-.orange{
+.bg-sedans{
     background-color: var(--Bright-orange);
 }
 
-.dark-cyan{
+.bg-suvs{
     background-color: var(--Dark-cyan);
 }
 
-.very-dark-cyan{
+.bg-luxury{
     background-color: var(--Very-dark-cyan);
 }
 
-
+/* Card properties */
 .card{
     display: flex;
     flex-direction: column;
@@ -89,7 +89,7 @@ img{
     font-family: var(--font-big-shoulders);
     font-weight: var(--font-700);
     font-size: 3rem;
-    line-height: 1.75rem;
+    line-height: 3rem;
     color: var(--Very-light-gray);
     text-transform: uppercase;
 }
@@ -112,32 +112,34 @@ img{
     border-radius: 2rem;
     background-color: var(--Very-light-gray);
     transition: background-color 0.3s ease-in-out;
+    border: 2px solid var(--Very-light-gray);
+    cursor: pointer;
 }
 
 /* Botton animation classes */
-.sedans{
+.btn--sedans{
     color:var(--Bright-orange);
-    border: 2px solid var(--Very-light-gray);
 }
-.sedans:hover, .sedans:focus{
+.btn--sedans:hover,
+.btn--sedans:focus{
     background-color: var(--Bright-orange);
     color: var(--Very-light-gray);
 }
 
-.suvs{
+.btn--suvs{
     color:var(--Dark-cyan);
-    border: 2px solid var(--Very-light-gray);
 }
-.suvs:hover, .suvs:focus{
+.btn--suvs:hover, 
+.btn--suvs:focus{
     background-color: var(--Dark-cyan);
     color: var(--Very-light-gray);
 }
 
-.luxury{
+.btn--luxury{
     color:var(--Very-dark-cyan);
-    border: 2px solid var(--Very-light-gray);
 }
-.luxury:hover, .luxury:focus{
+.btn--luxury:hover, 
+.btn--luxury:focus{
     background-color: var(--Very-dark-cyan);
     color: var(--Very-light-gray);
 }
